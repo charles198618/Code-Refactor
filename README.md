@@ -1,101 +1,25 @@
 # 01 HTML CSS Git: Code Refactor
 
-## Your Task
+## Description 
 
-**Note**: Be sure to review the [Homework Guide](../04-Important/Homework-Guide/README.md) and the [Good README Guide](../04-Important/Good-README-Guide/README.md) before you start working on this assignment!
+This is a password generator that I'm creating. Basically, it gives the user the possibility to randomly create the password.
 
-This week is an odd-numbered week, so your homework is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's homework involves a very important aspect of web development: **accessibility**. 
+Thus, the messages will be displaying to ask the user about what he wants. From the beginning, it will ask the user how many character he wants. So, the user will have the option to choose from 8 to 128 characters. And then,  the user will have the option to choose if he wants his password to have lowercase, upper case, special character, numbers. Once the user makes his own choice, it will generate the password according to the user's choice. 
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this homework, a marketing agency has hired you to refactor an existing site to make it more accessible. 
+![Password](./03-password-generator.png)
 
-Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
+Below is the link to Deployment:
+https://charles198618.github.io/passwordgenerator/
 
-Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
+## OBJECTIVES
 
-**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
-
-To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-Are you ready to jump in? Here are this week's homework requirements:
-
-## User Story
-
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
-
-## Acceptance Criteria
-
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
-
-## Mock-Up
-
-The following image shows the web application's appearance and functionality:
-
-![code refactor demo](./Assets/01-html-css-git-homework-demo.png)
+The motivation that pushed me to realize this project is because I wanted to solve a problem in society. Nowadays, many people loose datas such as documents, pictures, even money because they don't have a strong password. But with this project, the user will be able a generate a very strong password that will help users to protect  sensitive informations or datas on internet.
 
 
-## Grading Requirements
+## Languages used
 
-This homework is graded based on the following criteria: 
+In order to get to this result, I have use HTML, CSS, and JavaScript. First of all, we can think about HTML as a body. it stands for Hypertext Markup Language. Basically, it is a language that we can use to create web pages. Thus every single on internet is written using HTML. Moreover, it includes elements on the pages, images on the pages, the orders of the appearance of elements and so on. Secondly, we have CSS that stands for Cascading Style Sheet. It is used to make our website beautiful. It's used to define the cell padding of table cells, the style, the thickness, and color of a table's border, and the padding around images or other objects. The third most important element to point out is JavaScript. It is a pragramming language like Java, PHP, Python, C++. It's considered as the brain in human body. It allows us to implement complex features on web pages, animated graphics, interactive maps and so on.  It's with JavaScript that we have succeded to make this project work.   
 
-### Technical Acceptance Criteria: 40%
+## Challenges met
 
-* Satisfies all of the above acceptance criteria plus the following code improvements:
-
-  * Application's links all function correctly.
-
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-
-  * Application's CSS file is properly commented.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application resembles (at least 90%) screenshots provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+There was many challenges during the realization of this project. The big obstacle was how to use the conditional such as if and satisfies our the customers needs. Also, the use of for and while loops were the biggest challenges.
